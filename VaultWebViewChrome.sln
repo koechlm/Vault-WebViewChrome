@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultWebView", "VaultWebView.csproj", "{089E5653-AFB2-4820-A8B5-0FB65A8450D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultWebViewChrome", "VaultWebViewChrome.csproj", "{089E5653-AFB2-4820-A8B5-0FB65A8450D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
