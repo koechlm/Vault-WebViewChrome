@@ -37,7 +37,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\VaultWebView\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -47,7 +47,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -88,6 +88,18 @@
     <Reference Include="Autodesk.DataManagement.Client.Framework.Vault.Forms">
       <HintPath>..\..\..\..\..\Program Files\Autodesk\Vault Professional 2017\Explorer\Autodesk.DataManagement.Client.Framework.Vault.Forms.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="EO.Base, Version=16.2.1.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>packages\EO.WebBrowser.16.2.1.0\lib\EO.Base.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EO.WebBrowser, Version=16.2.1.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>packages\EO.WebBrowser.16.2.1.0\lib\EO.WebBrowser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EO.WebEngine, Version=16.2.1.0, Culture=neutral, PublicKeyToken=e92353a6bf73fffc, processorArchitecture=MSIL">
+      <HintPath>packages\EO.WebBrowser.16.2.1.0\lib\EO.WebEngine.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -153,6 +165,7 @@
   <ItemGroup>
     <None Include="icons\OnesAndZeros.png" />
     <None Include="JustOnesAndZeros.snk" />
+    <None Include="packages.config" />
     <None Include="VaultWebView.vcet.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

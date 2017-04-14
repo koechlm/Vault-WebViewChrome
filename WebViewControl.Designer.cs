@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.m_webBrowser = new System.Windows.Forms.WebBrowser();
+            this.m_webBrowser = new EO.WebBrowser.WinForm.WebControl();
+            this.webView1 = new EO.WebBrowser.WebView();
             this.SuspendLayout();
             // 
             // m_webBrowser
             // 
+            this.m_webBrowser.BackColor = System.Drawing.Color.White;
             this.m_webBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.m_webBrowser.Location = new System.Drawing.Point(0, 0);
-            this.m_webBrowser.Margin = new System.Windows.Forms.Padding(0);
-            this.m_webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.m_webBrowser.Name = "m_webBrowser";
-            this.m_webBrowser.ScriptErrorsSuppressed = true;
             this.m_webBrowser.Size = new System.Drawing.Size(577, 341);
             this.m_webBrowser.TabIndex = 0;
+            this.m_webBrowser.Text = "webControl1";
+            this.m_webBrowser.WebView = this.webView1;
             // 
             // WebViewControl
             // 
@@ -55,6 +56,7 @@
 
         #endregion
 
-        private System.Windows.Forms.WebBrowser m_webBrowser;
+        private EO.WebBrowser.WinForm.WebControl m_webBrowser;
+        private EO.WebBrowser.WebView webView1;
     }
 }

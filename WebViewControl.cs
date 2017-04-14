@@ -29,14 +29,14 @@ namespace VaultWebView
             if (url != null && url.Length > 0)
             {
                 string currentUrl = String.Empty;
-                if (m_webBrowser.Url != null)
-                    currentUrl = m_webBrowser.Url.ToString();
+                if (m_webBrowser.WebView.Url != null)
+                    currentUrl = m_webBrowser.WebView.Url.ToString();
                 if (url != currentUrl)
                     ThreadPool.QueueUserWorkItem(NavigateWorker, url);
             }
             else
             {
-                if (m_webBrowser.Url != null)
+                if (m_webBrowser.WebView.Url != null)
                     ThreadPool.QueueUserWorkItem(NavigateWorker, String.Empty);
             }
 
@@ -49,12 +49,12 @@ namespace VaultWebView
             try
             {
                 string uri = (string)o;
-                m_webBrowser.Navigate(uri);
+                m_webBrowser.WebView.LoadUrl(uri);
             }
             catch
             {
-                if (m_webBrowser.Url != null)
-                    m_webBrowser.Navigate(String.Empty);
+                if (m_webBrowser.WebView.Url != null)
+                    m_webBrowser.WebView.LoadUrl(String.Empty);
             }
         }
 
