@@ -163,6 +163,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Release\VaultWebView.vcet.config" />
     <None Include="icons\OnesAndZeros.png" />
     <None Include="JustOnesAndZeros.snk" />
     <None Include="packages.config" />
@@ -188,6 +189,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Release\EO.Base.dll" />
+    <Content Include="bin\Release\EO.Base.xml" />
+    <Content Include="bin\Release\EO.WebBrowser.dll" />
+    <Content Include="bin\Release\EO.WebBrowser.xml" />
+    <Content Include="bin\Release\EO.WebEngine.dll" />
+    <Content Include="bin\Release\EO.WebEngine.xml" />
+    <Content Include="bin\Release\VaultWebView.dll" />
+    <Content Include="bin\Release\VaultWebView.pdb" />
     <Content Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
