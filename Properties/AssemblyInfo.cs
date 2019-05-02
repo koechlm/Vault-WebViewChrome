@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VaultWebView 2018 Chrome")]
+[assembly: AssemblyTitle("VaultWebView 2019 Chrome")]
 [assembly: AssemblyDescription("Links Objects to Web Page in Display Tab")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Autodesk")]
-[assembly: AssemblyProduct("VaultWebView 2018 (Chrome)")]
-[assembly: AssemblyCopyright("Copyright © Autodesk 2017")]
+[assembly: AssemblyProduct("VaultWebView 2019 (Chrome)")]
+[assembly: AssemblyCopyright("Copyright © Autodesk 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7dc70157-5782-47b4-a204-572ac5855e5d")]
+[assembly: Guid("0CDFD636-5EC0-4728-B154-BFCB3FEF205E")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2018.0.0.0")]
-[assembly: AssemblyFileVersion("2018.0.0.0")]
+[assembly: AssemblyVersion("2019.24.0.0")]
+[assembly: AssemblyFileVersion("2019.24.0.0")]
