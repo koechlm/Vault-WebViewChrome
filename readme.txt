@@ -7,6 +7,7 @@ This edition is for evaluation purposes of chrome based component integration.
 
 RELEASE NOTES:
 ---------------------------------
+2022.27.0.0 - updated for Vault 2022; EO Browser Package updated
 2020.25.0.0 - updated for Vault 2020
 2019.24.0.0 - updated for Vault 2019
 2018.0.0.0 - updated for Vault 2018
